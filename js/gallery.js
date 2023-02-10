@@ -25,7 +25,7 @@ function animate() {
 	}
 
 	if ((currentTime - mLastFrameTime) > mWaitTime) {
-
+		swapPhoto();
 		mLastFrameTime = currentTime;
 	}
 }
